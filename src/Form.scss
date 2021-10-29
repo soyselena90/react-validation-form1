@@ -1,0 +1,97 @@
+.form-container {
+   position: relative;
+   width: 1200px;
+   height: 700px;
+   margin: 150px auto 0;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 8px;
+   background-color: #eeb875;
+}
+
+//left
+.form-content-left {
+   width: 50%;
+   img {
+      width: 100%;
+   }
+}
+
+//right
+.form-content-right {
+   width: 50%;
+   height: 100%;
+
+   form {
+      h1 {
+         text-align: center;
+         margin: 150px 0 50px;
+         font-size: 24px;
+         color: rgb(71, 50, 20);
+      }
+   }
+   .form-success {
+      font-size: 24px;
+      line-height: 100px;
+      text-align: center;
+      margin-bottom: 10px;
+   }
+   img {
+      width: 100%;
+      opacity: 0.8;
+   }
+}
+//input
+.form-inputs {
+   padding: 8px 0;
+   margin: 0 auto;
+   width: 350px;
+   label {
+      margin-right: 8px;
+      width: 160px;
+      display: inline-block;
+   }
+   input {
+      padding: 4px 0;
+      border: none;
+      outline: none;
+      background-color: rgb(248, 227, 182);
+      text-indent: 8px;
+      &:focus {
+         background-color: orange;
+      }
+   }
+   p {
+      color: red;
+   }
+}
+
+//submit button
+.form-input-btn {
+   border: none;
+   outline: none;
+   padding: 8px;
+   text-align: center;
+   background-color: #ee8d17;
+   border-radius: 4px;
+   margin: 32px auto 0;
+   display: block;
+   width: 100px;
+}
+//if user have an account
+.form-input-login {
+   display: block;
+   text-align: center;
+   margin-top: 16px;
+   a {
+      color: rgb(36, 152, 230);
+   }
+}
+//close button
+.close-btn {
+   position: absolute;
+   top: 10px;
+   right: 15px;
+}

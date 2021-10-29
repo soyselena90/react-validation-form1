@@ -1,0 +1,107 @@
+.form-container {
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  margin: 150px auto 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  background-color: #eeb875;
+}
+
+.form-content-left {
+  width: 50%;
+}
+
+.form-content-left img {
+  width: 100%;
+}
+
+.form-content-right {
+  width: 50%;
+  height: 100%;
+}
+
+.form-content-right form h1 {
+  text-align: center;
+  margin: 150px 0 50px;
+  font-size: 24px;
+  color: #473214;
+}
+
+.form-content-right .form-success {
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-content-right img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.form-inputs {
+  padding: 8px 0;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.form-inputs label {
+  margin-right: 8px;
+  width: 160px;
+  display: inline-block;
+}
+
+.form-inputs input {
+  padding: 4px 0;
+  border: none;
+  outline: none;
+  background-color: #f8e3b6;
+  text-indent: 8px;
+}
+
+.form-inputs input:focus {
+  background-color: orange;
+}
+
+.form-inputs p {
+  color: red;
+}
+
+.form-input-btn {
+  border: none;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  background-color: #ee8d17;
+  border-radius: 4px;
+  margin: 32px auto 0;
+  display: block;
+  width: 100px;
+}
+
+.form-input-login {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.form-input-login a {
+  color: #2498e6;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+/*# sourceMappingURL=Form.css.map */
